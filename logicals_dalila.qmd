@@ -1,0 +1,32 @@
+---
+title: "logicals_dalila_lara"
+format: html
+editor: visual
+---
+
+### A few logical expressions 
+
+Hi there! 
+
+```{r}
+# Is 5 equal to 1?
+5 == 1
+
+#does cat match dog?
+"cat" == "dog"
+
+meds <- c(1, 2, 3, 4, 5)
+meds == 3
+meds == 1 | meds > 3 
+
+teddy <- 5
+banjo <- 7
+tallie <- 4
+```
+
+```{r}
+teddy <= banjo
+
+```
+
+
